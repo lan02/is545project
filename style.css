@@ -1,0 +1,172 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    min-width: 350px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(223, 103, 113);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: nowrap;
+}
+
+li {
+    text-align: center;
+    float: left;
+    padding: 14px 8px;
+    font-size: 20px;
+}
+
+#navbarHome, #navbarIndex, #navbarNew {
+    float: right;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#navbarNew {
+    margin-right: 8px;
+}
+
+.table-container {
+    font-size: 14px;
+    padding-top: 75px;
+    margin-top: 35px;
+    width: 90%;
+    margin: auto;
+}
+
+.contactList {
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: rgb(223, 103, 113);
+    color: white;
+    margin: 2px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+#thNum {
+    width: 3%;
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+}
+
+#thName {
+    width: 25%;
+    text-align: left;
+}
+
+#thEmail{
+    width: 40%;
+    text-align: left;
+}
+
+#thPhone {
+    width: 20%;
+    text-align: left;
+}
+
+td {
+    color: black;
+    background-color: white; 
+    border: 1px solid black;
+    margin: 2px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+form {
+    margin: 5px;
+    padding: 5px;
+}
+form label {
+    display: block;
+    margin-top: 5px;
+}
+form input {
+    width: 98%;
+}
+
+#newContactModal {
+    display: none;
+    top: 100px;
+    position: absolute;
+    width: 50%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+#nameMessage, #emailMessage, #phoneMessage, 
+#editNameMessage, #editEmailMessage, #editPhoneMessage {
+    font-size: 10px;
+    color: red;
+}
+
+#newContactCancelBtn, #newContactSubmitBtn {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+#detailModal {
+    display: none;
+    width: 50%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 40;
+    top: 100px;
+    position: absolute;
+    margin-left: 25%;
+}
+
+.detailsInfo {
+    margin: 5px;
+    padding: 5px;
+}
+
+#detailEdit, #detailDelete, #detailClose {
+    float: right;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+#editModal {
+    display: none;
+    width: 50%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 50;
+    top: 100px;
+    position: absolute;
+    margin-left: 25%;
+}
+
+#editSaveBtn, #editCancelBtn {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
